@@ -4,7 +4,7 @@ public class NumbersInSpanish {
        int number = Integer.parseInt(args[0]); 
  
        // delete the line below and replace with your code
-       if (number == 1){
+       /*if (number == 1){
         System.out.println("Uno");
        }else if (number == 2){
         System.out.println("Dos");
@@ -16,6 +16,21 @@ public class NumbersInSpanish {
         System.out.println("Cinco");
        }else{
         System.out.println("Error, invalid input");
-       }
+       }*/
+
+        switch(number){
+            case 1:
+                System.out.println("Uno"); break;
+            case 2:
+                System.out.println("Dos"); break;
+            case 3:
+                System.out.println("Tres"); break;
+            case 4:
+                System.out.println("Cuatro"); break;
+            case 5:
+                System.out.println("Cinco"); break;
+            default:
+                System.out.println("Error, invalid input");
+        }
     }
  }
